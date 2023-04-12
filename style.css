@@ -1,3 +1,8 @@
 body { 
     background-color: rgb(4, 90, 61);
 }
+
+header {
+    background-color: darkgoldenrod;
+    color: antiquewhite;
+}
