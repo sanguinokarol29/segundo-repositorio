@@ -1,4 +1,6 @@
  @import url(/style/header.css);
+ @import url(/styles/carrossel.css);
+ 
 :root{
    --cor-principal: #b9636385;
    --cor-secundaria: hwb(0 0% 100% / 0);
