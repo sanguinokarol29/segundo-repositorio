@@ -2,8 +2,15 @@
  @import url(/styles/carrossel.css);
  
 :root{
-   --cor-principal: #b9636385;
+   --cor-principal: #D8AFCF;
    --cor-secundaria: hwb(0 0% 100% / 0);
+   --cor-1:#D8AFCF;
+   --cor-2:#51424E;
+   --cor-3:#B8A6B4;
+   --cor-4:#DCB397;
+   --cor-5:#A47F64;
+   -ms-scrollbar-3dlight-color
+   -ms-scrollbar-3dlight-color: ;
    --cor-escrita: #000000ce;
    --cor-defundo: #00000000;
    --fonte-principal: "Roboto";
