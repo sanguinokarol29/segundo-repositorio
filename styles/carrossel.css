@@ -49,9 +49,38 @@
     padding: 1em;
 }
 
+.descricao__titulo {
+    color:#DCB397;
+    font-weight: 700;
+}
 
+.descricao__titulo-produto {
+    color:#A47F64;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
 
+.descricao__texto {
+    font-family:var(--fonte-secundaria);
+    font-size: 13px;
+}
 
+.descricao__imagem {
+    width: 60%;
+}
+
+.botoes__item {
+    margin: 0 0.5em;
+}
+
+.botoes__ancora {
+    background-color: #DCB397;
+    padding: 1em 2.2em;
+    color: (--cor-principal);
+    font-weight: 700;
+    text-decoration: none;
+}
 
 
 
