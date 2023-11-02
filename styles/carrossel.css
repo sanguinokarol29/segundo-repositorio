@@ -1,7 +1,3 @@
-.carrossel{
-    background-color: var(--cor-defundo);
-}
-
 .carrossel__titulo{
     color: black;
     background-color: aliceblue;
@@ -159,6 +155,3 @@
 
 
 
-.carrossel__container{
-
-}
