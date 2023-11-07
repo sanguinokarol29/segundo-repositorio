@@ -1,20 +1,20 @@
+<!DOCTYPE html>
 <<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>Pagina Inicial</title>
+
   <link rel="stylesheet" href="reset.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">"
  
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -35,12 +35,78 @@
         <li class="cabecalho-lista-item"><a class="menu__lista-item" href="">contato</a></li>
       </ul
 
-    <section class="carrosel" >
+      <img class="cabecalho-imagem container__imagem" src="img/imagem 3.PNG" alt="logo ríSel">
+      <h1 class="container-titulo" >ríSel.com.br</h1>
+    </div>
 
-      <h2> Nossos Produtos e Serviços</h2>
+    <ul class="opcoes"
+    <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+    <label for="opcoes-menu">
+        <li class="opcoes__item">Categorias</li>
+    </label>
 
-      <div class="carrossel__container">
-        <!-- Slider main container -->
+    <ul class="cabecalho-lista">
+      <li class="cabecalho-lista-item"
+          <a href="#" class="menu__lista-item">Opção 1</a>
+      </li>
+      <li class="cabecalho-lista-item"
+          <a href="#" class="menu__lista-item">Opção 2</a>
+    </li>
+    <li class="cabecalho-lista-item">
+        <a href="#" class="menu__lista-item">Opção 3</a>
+    </li>
+ </ul>
+      
+  <li class="opcoes__item"><a href="#" class="opcoes__link">Serviços</a></li>
+  <li class="opcoes__item"><a href="#" class="opcoes__link">Projetos</a></li>
+</ul>
+
+<div class="container">
+  <a href="#"><img class="cabecalho-imagem cabecalho__favorito" src="./img/favorito.png" alt="Meus favoritos"> </a>
+  <a href="#"  class="container__link">
+      <img class="cabecalho-imagem" src="./img/contato.png"  alt="contatos"> </a>
+      <p class="container__texto"> Fale conosco</p>
+    </a>
+    <a href="#" class="container__link">
+         <img class="cabecalho-imagem" src="" alt="Carrinhos de compras">
+        <p class="container__texto">Minha sacola</p>
+    </a>
+    <a href="#" class="container__link">
+         <img class="cabecalho-imagem" src="img/Eu.jpg" alt="Meu Perfil">
+         <p class="container__texto">Meu perfil</p>
+    </a>
+   </div>
+
+  </header>
+
+        
+
+  <section class="banner">
+      <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+      <p class="banner__texto">Encontre em nossa "página" o que precisa para seu "desenvolvimento"!</p>
+      <input type="search" class="banner__pesquisa" placeholder="Faça sua busca em nossos serviços">
+  </section>
+
+  <section class=”secao1”>
+
+    <div class="secao1-div-conteudo">
+      <h2 class=”secao1-titulo”> Quem somos:</h2>
+      <p class="secao1-p1"> Somos uma marca especializada em máscaras de cílios, trazendo inovações. </p>
+      <p class="secao1-p2"> Máscara serum perfeita para manter fios bem alinhados, sua textura capaz de fazer a combinação ideal de volume e alongamento.
+        Auxilia no crescimento do cílios natural, ajudando a mantê-los saudáveis e fortes.
+      </p>
+    </div>
+
+    <img class="secao1-imagem" src="img/imagem 1 .JPG">
+
+  </section>
+
+   <section class="carrosel" >
+
+    <h2 class="carrossel__titulo">Nossos Produtos&Serviços</h2>
+
+       <!-- Slider main container -->
+       <div class="carrossel__container">
 <div class="swiper">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
@@ -82,58 +148,31 @@
 
     </section>
 
-      <img class="cabecalho-imagem container__imagem" src="img/imagem 3.PNG" alt="logo ríSel">
-      <h1 class="container-titulo" >ríSel.com.br</h1>
-    </div>
-
-    <ul class="opcoes"
-        <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-        <label for="opcoes-menu">
-            <li class="opcoes__item">Categorias</li>
-        </label>
+      
+   
             
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item"
-                <a href="#" class="menu__lista-item">Opção 1</a>
-            </li>
-            <li class="cabecalho-lista-item"
-                <a href="#" class="menu__lista-item">Opção 2</a>
-          </li>
-          <li class="cabecalho-lista-item">
-              <a href="#" class="menu__lista-item">Opção 3</a>
-          </li>
-       </ul>
-            
-      <li class="opcoes__item"><a href="#" class="opcoes__link">Serviços</a></li>
-      <li class="opcoes__item"><a href="#" class="opcoes__link">Projetos</a></li>
-   </ul>
+        
 
-   <div class="container">
-    <a href=""><img class="cabecalho-imagem cabecalho__favorito" src="./img/favorito.png" alt="Meus favoritos"> </a>
-    <a href="#"  class="container__link">
-      <img class="cabecalho-imagem" src="./img/contato.png"  alt="contatos"> </a>
-      <p class="container__texto"> Fale conosco</p>
-    </a>
-    <a href="#" class="container__link">
-         <img class="cabecalho-imagem" src="" alt="Carrinhos de compras">
-        <p class="container__texto">Minha sacola</p>
-    </a>
-    <a href="#" class="container__link">
-         <img class="cabecalho-imagem" src="img/Eu.jpg" alt="Meu Perfil">
-         <p class="container__texto">Meu perfil</p>
-    </a>
-   </div>
+  <ul class="cabecalho-lista">
+    <li class="cabecalho-lista-item"
+        <a href="#" class="menu__lista-item">Opção 1</a>
+    </li>
+    <li class="cabecalho-lista-item"
+        <a href="#" class="menu__lista-item">Opção 2</a>
+  </li>
+  <li class="cabecalho-lista-item">
+      <a href="#" class="menu__lista-item">Opção 3</a>
+  </li>
+</ul>
+    
+<li class="opcoes__item"><a href="#" class="opcoes__link">Serviços</a></li>
+<li class="opcoes__item"><a href="#" class="opcoes__link">Projetos</a></li>
+</ul>
+    
+    
 
   </header>
-  <section class=”secao1”>
-
-    <div class="secao1-div-conteudo">
-      <h2 class=”secao1-titulo”> Quem somos:</h2>
-      <p class="secao1-p1"> Somos uma marca especializada em máscaras de cílios, trazendo inovações. </p>
-      <p class="secao1-p2"> Máscara serum perfeita para manter fios bem alinhados, sua textura capaz de fazer a combinação ideal de volume e alongamento.
-        Auxilia no crescimento do cílios natural, ajudando a mantê-los saudáveis e fortes.
-      </p>
-    </div>
+  
     <img class="secao1-imagem" src="img/imagem 1 .JPG">
 
   </section>
