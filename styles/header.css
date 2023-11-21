@@ -31,7 +31,7 @@
    width: 40px;
 }
 
-.cabecalho__lista {
+.cabecalho-lista {
    display: none;
    background-color: rgba(228, 37, 196, 0.178);
    position: absolute;
@@ -39,7 +39,7 @@
    width: 50vw;
 }
 
-.container__botao:checked~.cabecalho__lista {
+.container__botao:checked~.cabecalho-lista {
    display: block;
 }
 
