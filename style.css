@@ -1,7 +1,7 @@
- @import url(/style/header.css);
+ @import url(/styles/header.css);
  @import url(/styles/carrossel.css);
- @import url(/style/contato.css);
- @import url(/style/rodape.css);
+ @import url(/styles/contato.css);
+ @import url(/styles/rodape.css);
 
 :root{
    --cor-principal: #D8AFCF;
